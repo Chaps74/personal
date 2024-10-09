@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Perooo Cantik</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Body Styling */
+        body {
+            background-color: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Card Styling */
+        .card {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Main Title Styling */
+        .main-title {
+            color: #34495e;
+            font-weight: 600;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Subtitle Styling */
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        /* Highlighted Text with Gradient Effect */
+        .highlighted-text {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #e74c3c;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+            letter-spacing: 4px;
+            background: linear-gradient(90deg, rgba(231, 76, 60, 1) 0%, rgba(241, 196, 15, 1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: colorChange 4s ease-in-out infinite;
+        }
+
+        /* Animation for Highlighted Text */
+        @keyframes colorChange {
+            0% {
+                color: #e74c3c;
+            }
+            50% {
+                color: #f39c12;
+            }
+            100% {
+                color: #e74c3c;
+            }
+        }
+
+        /* Card Image Styling */
+        .card img {
+            width: 120px;
+            height: auto;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            margin-bottom: 15px;
+        }
+
+        .card img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer Text Styling */
+        p {
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3 class="main-title">To Cantikku</h3>
+        <h4 class="subtitle">
+            Pasti Jawabannya
+        </h4>
+        <h1 class="highlighted-text"><strong>"Pretttttt"</strong></h1>
+        <!-- Clickable Image -->
+        <a href="message.php">
+            <img src="assets/p.jpg" alt="p" class="mb-3">
+        </a>
+        <p>Tekanen gambare perrr</p>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
